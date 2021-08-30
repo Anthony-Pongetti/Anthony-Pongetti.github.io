@@ -1,0 +1,26 @@
+body{
+  font-family: fantasy;
+  background-color: rgba(.1,.1,.1,.1); 
+}
+  
+  
+}
+#h1a{
+  text-align: center;
+  margin: 0;
+  font-family: fantasy;
+}
+
+#p1a{
+ text-align: center;
+ margin: 2;
+ font-family: fantasy;
+ font-size: 1.1em;
+ 
+}
+.mySlides {
+  display:none;
+  min-height: 500px;
+  max-height: 500px;
+}
+

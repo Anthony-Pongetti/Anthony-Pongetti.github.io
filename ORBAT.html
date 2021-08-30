@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ORBAT</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<! Navigation !>
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <a class="w3-bar-item w3-button" href="index.html">Home</a>
+  <a class="w3-bar-item w3-button" href="Recruitment.html">Recruitment</a>
+  <a class="w3-bar-item w3-button" href="Training.html">Training</a>
+  <a class="w3-bar-item w3-button" href="ORBAT.html">ORBAT</a>
+  <a class="w3-bar-item w3-button" href="unitphotos.html">Unit Photos</a>
+  <a class="w3-bar-item w3-button" href="admin.html">Admin</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-black">
+  <button class="w3-button w3-black w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+
+<! Content !>
+  <div class="w3-container">
+    <h1 id="h1a">61st Cavalry Regiment ORBAT</h1>
+  </div>
+</div>
+
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
